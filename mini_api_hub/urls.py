@@ -25,4 +25,4 @@ app_url_patterns = [
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', include(app_url_patterns))
-]   
+]
